@@ -13,7 +13,7 @@ function Hero({ t, accent }) {
             <span className="display-em">made obvious.</span>
           </h1>
           <p className="lede">
-            One-to-one maths tuition for KS2, KS3 and GCSE — from an A-level
+            One-to-one maths tuition for KS3 and GCSE — from an A-level
             maths student (predicted A) with a grade 9 in GCSE maths. I sat
             these exams recently, so I know exactly what trips students up and
             how to fix it.
@@ -138,16 +138,6 @@ function About({ t }) {
 function Subjects({ t, accent }) {
   const tracks = [
     {
-      key: 'ks2',
-      level: 'KS2',
-      ages: 'Years 3–6',
-      title: 'Primary maths',
-      blurb: 'Building rock-solid number sense and confidence before secondary — so the step up to Year 7 never feels like a leap.',
-      topics: ['Number & place value', 'Times tables', 'Fractions', 'Word problems'],
-      sample: '7×8',
-      price: '£10',
-    },
-    {
       key: 'ks3',
       level: 'KS3',
       ages: 'Years 7–9',
@@ -175,7 +165,7 @@ function Subjects({ t, accent }) {
       <div className="section-head">
         <div className="kicker">02 · Subjects & levels</div>
         <h2 className="section-title">
-          Maths for KS2, KS3 and GCSE.
+          Maths for KS3 and GCSE.
         </h2>
       </div>
       <div className="track-grid">
@@ -259,7 +249,7 @@ function Tracker({ t, accent }) {
       <div className="tracker-foot">
         <div className="tracker-foot-item">
           <span className="tracker-foot-k">Sessions</span>
-          <span className="tracker-foot-v">60-min weekly</span>
+          <span className="tracker-foot-v">As often as you'd like</span>
         </div>
         <div className="tracker-foot-item">
           <span className="tracker-foot-k">Reports</span>
