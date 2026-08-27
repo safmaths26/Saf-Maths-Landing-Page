@@ -83,7 +83,7 @@ function About({ t }) {
       <div className="about-grid">
         <div className="about-photo">
           <div className="photo-frame">
-            <img src="/safwan.jpg" alt="Safwan" className="about-photo-img" />
+            <img src="/safwan.jpeg" alt="Safwan" className="about-photo-img" />
           </div>
         </div>
         <div className="about-card">
