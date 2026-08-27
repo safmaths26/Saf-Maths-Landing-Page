@@ -83,24 +83,22 @@ function About({ t }) {
       <div className="about-grid">
         <div className="about-photo">
           <div className="photo-frame">
-            <div className="photo-placeholder">
-              <span className="ph-mono">PHOTO</span>
-              <span className="ph-mono ph-sub">drop image here</span>
-            </div>
+            <img src="/safwan.jpg" alt="Safwan" className="about-photo-img" />
           </div>
-          <div className="about-card">
-            <div className="about-card-row">
-              <span>GCSE Maths</span><strong>Grade 9</strong>
-            </div>
-            <div className="about-card-row">
-              <span>A-Level Maths</span><strong>Predicted A</strong>
-            </div>
-            <div className="about-card-row">
-              <span>Based in</span><strong>Tooting, SW17</strong>
-            </div>
-            <div className="about-card-row">
-              <span>Teaching</span><strong>In person · Online</strong>
-            </div>
+        </div>
+        <div className="about-card">
+          <div className="about-card-row">
+            <span>GCSE Maths</span><strong>Grade 9</strong>
+          </div>
+          <div className="about-card-row">
+            <span>A-Level Maths</span><strong>Predicted A</strong>
+          </div>
+          <div className="about-card-row">
+            <span>Based in</span><strong>Tooting, SW17</strong>
+          </div>
+          <div className="about-card-row">
+            <span>Teaching</span><strong>In person · Online</strong>
+          </div>
           </div>
         </div>
         <div className="about-copy">
