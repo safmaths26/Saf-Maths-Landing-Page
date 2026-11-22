@@ -34,16 +34,25 @@ a { color: inherit; text-decoration: none; }
 [id] { scroll-margin-top: 72px; }
 
 /* ── LOGO ─────────────────────────────────────────────────────────────── */
-.logo { display: inline-flex; align-items: center; gap: 10px; color: var(--ink); }
+/* The ∴ mark is cropped to its dots and sized to the capital height of
+   Poppins (0.702em), then sat on the baseline: the top dot lines up with
+   the top of the capitals, the bottom dots with the bottom of the letters. */
+.logo {
+  display: inline-flex; align-items: baseline;
+  gap: 0.52em;
+  font-size: 20px;
+  color: var(--ink);
+}
+.logo-mark { width: 0.73em; height: 0.702em; flex-shrink: 0; }
 .wordmark {
+  font-size: 1em;
   font-weight: 700;
   letter-spacing: -0.03em;
   line-height: 1;
   white-space: nowrap;
-  font-size: 20px;
 }
 .wordmark span { color: var(--accent); }
-.footer .wordmark { font-size: 16px; }
+.footer .logo { font-size: 16px; }
 
 /* ── NAV ──────────────────────────────────────────────────────────────── */
 .nav {
